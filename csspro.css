@@ -1,0 +1,142 @@
+*{
+   margin: 0;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'pappins',sans-serif;
+}
+
+
+body{
+
+background-image: url("https://tse4.mm.bing.net/th/id/OIP.slS127BjxtXTvLvXZssUggHaHa?w=1003&h=1003&rs=1&pid=ImgDetMain&o=7&rm=3");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+ 
+
+a{
+  text-decoration: none;
+  color: rgb(121, 206, 121);
+}
+a:hover{
+  text-decoration: underline;
+  color: rgb(0, 255, 179);
+}
+   
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 40px;
+ 
+}
+.login_box{
+  position: relative;
+  width: 450px;
+  backdrop-filter: blur(25px);
+  border: 2px solid red;
+  border-radius: 15px;
+  padding: 7.5em 2.5em 4em 2.5em;
+  color: rgb(212, 192, 231);
+  box-shadow: 0px 0px 10px 2px rgb(255, 109, 109);
+
+}
+
+
+.login-header{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(60, 165, 165, 0.281);
+  width: 140px;
+  height: 70px;
+  border-radius: 0 0 20px 20px;
+
+
+}
+
+
+.login-header span {
+  font-size: 30px;
+  color: aquamarine;
+}
+
+
+.input_box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+ 
+}
+ .logo{
+  text-align: center;
+  margin-top : 21px;
+ }
+
+.input_field{
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+  color: aliceblue;
+  background: transparent;
+  padding-inline: 20px 50px;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 30px;
+  outline: none;
+   
+  
+}
+
+#user{
+  margin-bottom: 10px;
+}
+
+
+.label{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  transition: .2s;
+}
+
+.remember-forget{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+
+}
+
+
+.input-submit{
+  width: 100%;
+  height: 50px;
+  background: rgba(167, 0, 0, 0.438);
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+
+.input-submit:hover{
+  background-color: rgb(2, 124, 84);
+  text-decoration: underline;
+}
+
+.register{
+  text-align: center;
+}
+.register{
+  font-weight: 500;
+}
